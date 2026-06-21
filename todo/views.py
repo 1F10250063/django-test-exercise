@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.utils.timezone import make_aware
-from django.utils.databases import parse_datetime
+from django.utils.dateparse import parse_datetime
 from todo.models import Task
 
 
